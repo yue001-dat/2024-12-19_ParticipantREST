@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>_2024_12_19_ParticipantREST</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="2024-12-19_ParticipantsLib">
+      <HintPath>..\..\2024-12-19_ParticipantsLib\2024-12-19_ParticipantsLib\bin\Debug\net8.0\2024-12-19_ParticipantsLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
